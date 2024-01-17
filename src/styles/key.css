@@ -1,0 +1,49 @@
+/* .key {
+    position: absolute;
+} */
+
+.black {
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 50px;
+    color: white;
+    padding-top: 150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid black;
+    width: 40px;
+    height: 75px;
+    font-size: 30px;
+    padding-top: 210px;
+    text-align: center;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+}
+
+.one {
+    left: 28px;
+}
+.two {
+    left: 70px;
+}
+.three {
+    left: 150px;
+}
+.four {
+    left: 195px;
+}
+.five {
+    left: 240px;
+}
+
+.pressed {
+    background-color: rgb(1, 1, 169);
+}

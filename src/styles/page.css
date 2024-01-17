@@ -1,0 +1,9 @@
+.chordNamer {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
