@@ -37,6 +37,7 @@ const App = () => {
   const [notes, setNotes] = useState([]);
 
   const handleKeyDown = (event) => {
+    event.preventDefault();
     setKeysDown(prevKeys => {
       // Check if the key is not already in the array
       if (!prevKeys.includes(event.key)) {
@@ -50,6 +51,7 @@ const App = () => {
   }
 
   const handleKeyUp = (event) => {
+    event.preventDefault();
     setKeysDown(prevKeys => {
       const newKeysDown = prevKeys.filter(key => key !== event.key);
       const newChordName = nameChord(newKeysDown);
